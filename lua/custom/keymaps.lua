@@ -1,8 +1,9 @@
 -- Send to Maya Mapptings
 vim.keymap.set("v", "<leader>ma", ":SendToMayaPy<CR>")
 vim.keymap.set("n", "<leader>ma", ":SendToMayaPy<CR>")
+
 -- Copilot
-vim.keymap.set("n", "S-<TAB>", "copilot#Accept<CR>")
+vim.keymap.set("n", "S-<TAB>", "copilot#Accept<CR>", { silent = true, expr = true })
 
 -- Remaps the Ctrl+W + h/j/k/l keys, which moves your cursor
 -- the particular window splits, to just Ctrl+h/j/k/l

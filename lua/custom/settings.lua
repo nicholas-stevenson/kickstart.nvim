@@ -1,3 +1,14 @@
+vim.cmd.colorscheme("tokyonight-moon")
+
+-- Configuration for sendtomaya
+vim.g.send_to_maya_host = "127.0.0.1"
+vim.g.send_to_maya_port = 7002
+vim.g.send_to_maya_prefer_language = 'python'
+
+-- Copilot Settings
+vim.g.copilot_no_tab_map = true
+vim.g.copilot_assume_mapped = true
+
 -- [[ Context ]]
 -- vim.opt.colorcolumn = '120'   -- str:  Show col for max line length
 vim.opt.number = true         -- bool: Show line numbers
