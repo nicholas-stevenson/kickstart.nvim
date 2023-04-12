@@ -393,7 +393,7 @@ local on_attach = function(_, bufnr)
   nmap('<leader>ps', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[P]roject [S]ymbols')
 
   -- See `:help K` for why this keymap
-  nmap('<A-k>', vim.lsp.buf.hover, 'Hover Documentation')
+  nmap('<C-q>', vim.lsp.buf.hover, 'Hover Documentation')
   -- nmap('<C-K>', vim.lsp.buf.signature_help, 'Signature Documentation')
 
   -- Lesser used LSP functionality

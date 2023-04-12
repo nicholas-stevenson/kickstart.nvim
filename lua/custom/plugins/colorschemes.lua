@@ -4,6 +4,8 @@ return {
     "catppuccin/nvim",
     name = "catppuccin"
   },
-  "navarasu/onedark.nvim"
+  "LunarVim/onedarker.nvim",
+  "EdenEast/nightfox.nvim",
+  "ellisonleao/gruvbox.nvim",
+  "rebelot/kanagawa.nvim"
 }
-
